@@ -1,0 +1,34 @@
+.hero {
+    height: 100px;
+    background-color: #559d9e;
+}
+
+body {
+    background-color: #041e2e;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #c4e3ca;
+    font-size: 500%;
+    font-family: 'Verdana';
+    text-align: center;
+    padding-top: 5%;
+}
+
+h2 {
+    color: #309271;
+    font-size: 130%;
+    font-family: 'Verdana';
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+h3 {
+    background-color: #559d9e;
+    color: #c4e3ca;
+    font-size: 52px;
+    font-family: 'Verdana';
+    text-align: center;
+}
