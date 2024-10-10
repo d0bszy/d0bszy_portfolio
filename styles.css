@@ -5,7 +5,7 @@ body {
 }
 
 .hero {
-    height: 10%;
+    height: 100px;
     background-color: #559d9e;
     display: flex;
     flex-direction: column;
