@@ -33,12 +33,12 @@ section {
 
 h1 {
     color: #c4e3ca;
-    font-size: 500%;
+    font-size: 450%;
     font-family: 'Verdana';
     text-align: center;
     padding-top: 0%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 h2 {
@@ -47,6 +47,8 @@ h2 {
     font-family: 'Verdana';
     text-align: center;
     padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .divider {
@@ -77,8 +79,46 @@ p {
     font-size: 100%;
     font-family: 'Verdana';
     text-align: left;
-    padding: 0;
+    padding-left: 2%;
+    padding-right: 2%;
     margin: 0.5%;
+}
+
+h4 {
+    color: #c4e3ca;
+    font-size: 175%;
+    font-family: 'Verdana';
+    text-align: left;
+}
+
+.photos {
+    background-color: #041e2e;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+    justify-content: space-around;
+}
+
+/* Ensure images fit properly */
+.photo img {
+    max-height: 80vh;
+    max-width: 100%;
+    margin-bottom: 10%;
+    object-fit: contain;
+}
+
+img {
+    color: #309271;
+    font: 100% 'Verdana';
 }
 
 .footer {

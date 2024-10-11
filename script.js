@@ -1,5 +1,5 @@
 function fetchJoke() {
-    fetch('https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit')
+    fetch('https://v2.jokeapi.dev/joke/Any?safe-mode')
         .then(response => response.json())
         .then(data => {
             let joke = '';
